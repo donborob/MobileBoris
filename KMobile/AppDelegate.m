@@ -7,12 +7,38 @@
 //
 
 #import "AppDelegate.h"
-
-@implementation AppDelegate
+#import "New.h"
+#import "NewViewController.h"
+@implementation AppDelegate{
+    NSMutableArray *news;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    news = [NSMutableArray arrayWithCapacity:20];
+	New *new = [[New alloc] init];
+	new.name = @"Misha";
+	new.text = @"I am Misha";
+	new.rating = 4;
+	[news addObject:new];
+	new = [[New alloc] init];
+	new.name = @"Boris";
+	new.text = @"I am Boris";
+	new.rating = 3;
+	[news addObject:new];
+	new = [[New alloc] init];
+	new.name = @"Ruzal";
+	new.text = @"I am Ruzaldfsfsastrtretetrettretrtertertrterttrtr";
+	new.rating = 4;
+	[news addObject:new];
+	UITabBarController *tabBarController =
+    (UITabBarController *)self.window.rootViewController;
+	UINavigationController *navigationController =
+    [[tabBarController viewControllers] objectAtIndex:0];
+	NewViewController *newsViewController =
+    [[navigationController viewControllers] objectAtIndex:0];
+	newsViewController.news = news;
     return YES;
 }
 							

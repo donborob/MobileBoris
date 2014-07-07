@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		87375D05196AC7E30056C192 /* SortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87375D04196AC7E30056C192 /* SortViewController.m */; };
+		879342D5196A71270007C72E /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 879342D4196A71270007C72E /* NewViewController.m */; };
+		879342D8196A73370007C72E /* New.m in Sources */ = {isa = PBXBuildFile; fileRef = 879342D7196A73370007C72E /* New.m */; };
+		879342DE196A7E9C0007C72E /* 1StarSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 879342D9196A7E9C0007C72E /* 1StarSmall.png */; };
+		879342DF196A7E9C0007C72E /* 2StarsSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 879342DA196A7E9C0007C72E /* 2StarsSmall.png */; };
+		879342E0196A7E9C0007C72E /* 3StarsSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 879342DB196A7E9C0007C72E /* 3StarsSmall.png */; };
+		879342E1196A7E9C0007C72E /* 4StarsSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 879342DC196A7E9C0007C72E /* 4StarsSmall.png */; };
+		879342E2196A7E9C0007C72E /* 5StarsSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 879342DD196A7E9C0007C72E /* 5StarsSmall.png */; };
+		879342E5196A80E60007C72E /* NewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 879342E4196A80E60007C72E /* NewCell.m */; };
+		879342E8196A8C990007C72E /* NewDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 879342E7196A8C990007C72E /* NewDetailsViewController.m */; };
 		87FDD395196A589A003EC2D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FDD394196A589A003EC2D7 /* Foundation.framework */; };
 		87FDD397196A589A003EC2D7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FDD396196A589A003EC2D7 /* CoreGraphics.framework */; };
 		87FDD399196A589A003EC2D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FDD398196A589A003EC2D7 /* UIKit.framework */; };
@@ -21,6 +31,9 @@
 		87FDD3B6196A589B003EC2D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FDD398196A589A003EC2D7 /* UIKit.framework */; };
 		87FDD3BE196A589B003EC2D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87FDD3BC196A589B003EC2D7 /* InfoPlist.strings */; };
 		87FDD3C0196A589B003EC2D7 /* KMobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FDD3BF196A589B003EC2D7 /* KMobileTests.m */; };
+		87FDD3CA196A5CDB003EC2D7 /* text-list.png in Resources */ = {isa = PBXBuildFile; fileRef = 87FDD3C9196A5CDB003EC2D7 /* text-list.png */; };
+		87FDD3CC196A5D10003EC2D7 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 87FDD3CB196A5D10003EC2D7 /* star.png */; };
+		87FDD3CE196A5D93003EC2D7 /* logo2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 87FDD3CD196A5D93003EC2D7 /* logo2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +47,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		87375D03196AC7E30056C192 /* SortViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortViewController.h; sourceTree = "<group>"; };
+		87375D04196AC7E30056C192 /* SortViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortViewController.m; sourceTree = "<group>"; };
+		879342D3196A71270007C72E /* NewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewViewController.h; path = ../NewViewController.h; sourceTree = "<group>"; };
+		879342D4196A71270007C72E /* NewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewViewController.m; path = ../NewViewController.m; sourceTree = "<group>"; };
+		879342D6196A73370007C72E /* New.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = New.h; sourceTree = "<group>"; };
+		879342D7196A73370007C72E /* New.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = New.m; sourceTree = "<group>"; };
+		879342D9196A7E9C0007C72E /* 1StarSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1StarSmall.png; sourceTree = "<group>"; };
+		879342DA196A7E9C0007C72E /* 2StarsSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2StarsSmall.png; sourceTree = "<group>"; };
+		879342DB196A7E9C0007C72E /* 3StarsSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3StarsSmall.png; sourceTree = "<group>"; };
+		879342DC196A7E9C0007C72E /* 4StarsSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4StarsSmall.png; sourceTree = "<group>"; };
+		879342DD196A7E9C0007C72E /* 5StarsSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5StarsSmall.png; sourceTree = "<group>"; };
+		879342E3196A80E60007C72E /* NewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewCell.h; sourceTree = "<group>"; };
+		879342E4196A80E60007C72E /* NewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewCell.m; sourceTree = "<group>"; };
+		879342E6196A8C990007C72E /* NewDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewDetailsViewController.h; sourceTree = "<group>"; };
+		879342E7196A8C990007C72E /* NewDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewDetailsViewController.m; sourceTree = "<group>"; };
 		87FDD391196A589A003EC2D7 /* KMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87FDD394196A589A003EC2D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		87FDD396196A589A003EC2D7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +81,9 @@
 		87FDD3BB196A589B003EC2D7 /* KMobileTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KMobileTests-Info.plist"; sourceTree = "<group>"; };
 		87FDD3BD196A589B003EC2D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		87FDD3BF196A589B003EC2D7 /* KMobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMobileTests.m; sourceTree = "<group>"; };
+		87FDD3C9196A5CDB003EC2D7 /* text-list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "text-list.png"; sourceTree = "<group>"; };
+		87FDD3CB196A5D10003EC2D7 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		87FDD3CD196A5D93003EC2D7 /* logo2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +143,29 @@
 		87FDD39A196A589A003EC2D7 /* KMobile */ = {
 			isa = PBXGroup;
 			children = (
+				879342D9196A7E9C0007C72E /* 1StarSmall.png */,
+				879342DA196A7E9C0007C72E /* 2StarsSmall.png */,
+				879342DB196A7E9C0007C72E /* 3StarsSmall.png */,
+				879342DC196A7E9C0007C72E /* 4StarsSmall.png */,
+				879342DD196A7E9C0007C72E /* 5StarsSmall.png */,
+				87FDD3CD196A5D93003EC2D7 /* logo2.jpg */,
+				87FDD3CB196A5D10003EC2D7 /* star.png */,
+				87FDD3C9196A5CDB003EC2D7 /* text-list.png */,
 				87FDD3A3196A589A003EC2D7 /* AppDelegate.h */,
 				87FDD3A4196A589A003EC2D7 /* AppDelegate.m */,
 				87FDD3A6196A589A003EC2D7 /* Main.storyboard */,
+				87375D03196AC7E30056C192 /* SortViewController.h */,
+				87375D04196AC7E30056C192 /* SortViewController.m */,
+				879342E3196A80E60007C72E /* NewCell.h */,
+				879342E4196A80E60007C72E /* NewCell.m */,
 				87FDD3A9196A589A003EC2D7 /* ViewController.h */,
 				87FDD3AA196A589A003EC2D7 /* ViewController.m */,
+				879342D6196A73370007C72E /* New.h */,
+				879342D7196A73370007C72E /* New.m */,
+				879342D3196A71270007C72E /* NewViewController.h */,
+				879342D4196A71270007C72E /* NewViewController.m */,
+				879342E6196A8C990007C72E /* NewDetailsViewController.h */,
+				879342E7196A8C990007C72E /* NewDetailsViewController.m */,
 				87FDD3AC196A589A003EC2D7 /* Images.xcassets */,
 				87FDD39B196A589A003EC2D7 /* Supporting Files */,
 			);
@@ -228,8 +277,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				879342E1196A7E9C0007C72E /* 4StarsSmall.png in Resources */,
+				879342E2196A7E9C0007C72E /* 5StarsSmall.png in Resources */,
 				87FDD3AD196A589A003EC2D7 /* Images.xcassets in Resources */,
+				879342DE196A7E9C0007C72E /* 1StarSmall.png in Resources */,
+				879342E0196A7E9C0007C72E /* 3StarsSmall.png in Resources */,
+				879342DF196A7E9C0007C72E /* 2StarsSmall.png in Resources */,
+				87FDD3CE196A5D93003EC2D7 /* logo2.jpg in Resources */,
+				87FDD3CC196A5D10003EC2D7 /* star.png in Resources */,
 				87FDD39F196A589A003EC2D7 /* InfoPlist.strings in Resources */,
+				87FDD3CA196A5CDB003EC2D7 /* text-list.png in Resources */,
 				87FDD3A8196A589A003EC2D7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +309,11 @@
 				87FDD3AB196A589A003EC2D7 /* ViewController.m in Sources */,
 				87FDD3A5196A589A003EC2D7 /* AppDelegate.m in Sources */,
 				87FDD3A1196A589A003EC2D7 /* main.m in Sources */,
+				879342D5196A71270007C72E /* NewViewController.m in Sources */,
+				879342E5196A80E60007C72E /* NewCell.m in Sources */,
+				879342E8196A8C990007C72E /* NewDetailsViewController.m in Sources */,
+				87375D05196AC7E30056C192 /* SortViewController.m in Sources */,
+				879342D8196A73370007C72E /* New.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +518,7 @@
 				87FDD3C5196A589B003EC2D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		87FDD3C6196A589B003EC2D7 /* Build configuration list for PBXNativeTarget "KMobileTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +527,7 @@
 				87FDD3C8196A589B003EC2D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
