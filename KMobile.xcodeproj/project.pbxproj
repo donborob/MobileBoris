@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87FDD395196A589A003EC2D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FDD394196A589A003EC2D7 /* Foundation.framework */; };
+		87FDD397196A589A003EC2D7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FDD396196A589A003EC2D7 /* CoreGraphics.framework */; };
+		87FDD399196A589A003EC2D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FDD398196A589A003EC2D7 /* UIKit.framework */; };
+		87FDD39F196A589A003EC2D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87FDD39D196A589A003EC2D7 /* InfoPlist.strings */; };
+		87FDD3A1196A589A003EC2D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FDD3A0196A589A003EC2D7 /* main.m */; };
+		87FDD3A5196A589A003EC2D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FDD3A4196A589A003EC2D7 /* AppDelegate.m */; };
+		87FDD3A8196A589A003EC2D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87FDD3A6196A589A003EC2D7 /* Main.storyboard */; };
+		87FDD3AB196A589A003EC2D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FDD3AA196A589A003EC2D7 /* ViewController.m */; };
+		87FDD3AD196A589A003EC2D7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87FDD3AC196A589A003EC2D7 /* Images.xcassets */; };
+		87FDD3B4196A589B003EC2D7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FDD3B3196A589B003EC2D7 /* XCTest.framework */; };
+		87FDD3B5196A589B003EC2D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FDD394196A589A003EC2D7 /* Foundation.framework */; };
+		87FDD3B6196A589B003EC2D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FDD398196A589A003EC2D7 /* UIKit.framework */; };
+		87FDD3BE196A589B003EC2D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87FDD3BC196A589B003EC2D7 /* InfoPlist.strings */; };
+		87FDD3C0196A589B003EC2D7 /* KMobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FDD3BF196A589B003EC2D7 /* KMobileTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87FDD3B7196A589B003EC2D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87FDD389196A589A003EC2D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87FDD390196A589A003EC2D7;
+			remoteInfo = KMobile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87FDD391196A589A003EC2D7 /* KMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87FDD394196A589A003EC2D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		87FDD396196A589A003EC2D7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		87FDD398196A589A003EC2D7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		87FDD39C196A589A003EC2D7 /* KMobile-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KMobile-Info.plist"; sourceTree = "<group>"; };
+		87FDD39E196A589A003EC2D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		87FDD3A0196A589A003EC2D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87FDD3A2196A589A003EC2D7 /* KMobile-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KMobile-Prefix.pch"; sourceTree = "<group>"; };
+		87FDD3A3196A589A003EC2D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		87FDD3A4196A589A003EC2D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		87FDD3A7196A589A003EC2D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87FDD3A9196A589A003EC2D7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		87FDD3AA196A589A003EC2D7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		87FDD3AC196A589A003EC2D7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		87FDD3B2196A589B003EC2D7 /* KMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87FDD3B3196A589B003EC2D7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		87FDD3BB196A589B003EC2D7 /* KMobileTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KMobileTests-Info.plist"; sourceTree = "<group>"; };
+		87FDD3BD196A589B003EC2D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		87FDD3BF196A589B003EC2D7 /* KMobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMobileTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87FDD38E196A589A003EC2D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87FDD397196A589A003EC2D7 /* CoreGraphics.framework in Frameworks */,
+				87FDD399196A589A003EC2D7 /* UIKit.framework in Frameworks */,
+				87FDD395196A589A003EC2D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87FDD3AF196A589B003EC2D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87FDD3B4196A589B003EC2D7 /* XCTest.framework in Frameworks */,
+				87FDD3B6196A589B003EC2D7 /* UIKit.framework in Frameworks */,
+				87FDD3B5196A589B003EC2D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87FDD388196A589A003EC2D7 = {
+			isa = PBXGroup;
+			children = (
+				87FDD39A196A589A003EC2D7 /* KMobile */,
+				87FDD3B9196A589B003EC2D7 /* KMobileTests */,
+				87FDD393196A589A003EC2D7 /* Frameworks */,
+				87FDD392196A589A003EC2D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87FDD392196A589A003EC2D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87FDD391196A589A003EC2D7 /* KMobile.app */,
+				87FDD3B2196A589B003EC2D7 /* KMobileTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87FDD393196A589A003EC2D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87FDD394196A589A003EC2D7 /* Foundation.framework */,
+				87FDD396196A589A003EC2D7 /* CoreGraphics.framework */,
+				87FDD398196A589A003EC2D7 /* UIKit.framework */,
+				87FDD3B3196A589B003EC2D7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87FDD39A196A589A003EC2D7 /* KMobile */ = {
+			isa = PBXGroup;
+			children = (
+				87FDD3A3196A589A003EC2D7 /* AppDelegate.h */,
+				87FDD3A4196A589A003EC2D7 /* AppDelegate.m */,
+				87FDD3A6196A589A003EC2D7 /* Main.storyboard */,
+				87FDD3A9196A589A003EC2D7 /* ViewController.h */,
+				87FDD3AA196A589A003EC2D7 /* ViewController.m */,
+				87FDD3AC196A589A003EC2D7 /* Images.xcassets */,
+				87FDD39B196A589A003EC2D7 /* Supporting Files */,
+			);
+			path = KMobile;
+			sourceTree = "<group>";
+		};
+		87FDD39B196A589A003EC2D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87FDD39C196A589A003EC2D7 /* KMobile-Info.plist */,
+				87FDD39D196A589A003EC2D7 /* InfoPlist.strings */,
+				87FDD3A0196A589A003EC2D7 /* main.m */,
+				87FDD3A2196A589A003EC2D7 /* KMobile-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87FDD3B9196A589B003EC2D7 /* KMobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				87FDD3BF196A589B003EC2D7 /* KMobileTests.m */,
+				87FDD3BA196A589B003EC2D7 /* Supporting Files */,
+			);
+			path = KMobileTests;
+			sourceTree = "<group>";
+		};
+		87FDD3BA196A589B003EC2D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87FDD3BB196A589B003EC2D7 /* KMobileTests-Info.plist */,
+				87FDD3BC196A589B003EC2D7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87FDD390196A589A003EC2D7 /* KMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87FDD3C3196A589B003EC2D7 /* Build configuration list for PBXNativeTarget "KMobile" */;
+			buildPhases = (
+				87FDD38D196A589A003EC2D7 /* Sources */,
+				87FDD38E196A589A003EC2D7 /* Frameworks */,
+				87FDD38F196A589A003EC2D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KMobile;
+			productName = KMobile;
+			productReference = 87FDD391196A589A003EC2D7 /* KMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87FDD3B1196A589B003EC2D7 /* KMobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87FDD3C6196A589B003EC2D7 /* Build configuration list for PBXNativeTarget "KMobileTests" */;
+			buildPhases = (
+				87FDD3AE196A589B003EC2D7 /* Sources */,
+				87FDD3AF196A589B003EC2D7 /* Frameworks */,
+				87FDD3B0196A589B003EC2D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87FDD3B8196A589B003EC2D7 /* PBXTargetDependency */,
+			);
+			name = KMobileTests;
+			productName = KMobileTests;
+			productReference = 87FDD3B2196A589B003EC2D7 /* KMobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87FDD389196A589A003EC2D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Misha_Ruzal_Boris;
+				TargetAttributes = {
+					87FDD3B1196A589B003EC2D7 = {
+						TestTargetID = 87FDD390196A589A003EC2D7;
+					};
+				};
+			};
+			buildConfigurationList = 87FDD38C196A589A003EC2D7 /* Build configuration list for PBXProject "KMobile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87FDD388196A589A003EC2D7;
+			productRefGroup = 87FDD392196A589A003EC2D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87FDD390196A589A003EC2D7 /* KMobile */,
+				87FDD3B1196A589B003EC2D7 /* KMobileTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87FDD38F196A589A003EC2D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87FDD3AD196A589A003EC2D7 /* Images.xcassets in Resources */,
+				87FDD39F196A589A003EC2D7 /* InfoPlist.strings in Resources */,
+				87FDD3A8196A589A003EC2D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87FDD3B0196A589B003EC2D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87FDD3BE196A589B003EC2D7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87FDD38D196A589A003EC2D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87FDD3AB196A589A003EC2D7 /* ViewController.m in Sources */,
+				87FDD3A5196A589A003EC2D7 /* AppDelegate.m in Sources */,
+				87FDD3A1196A589A003EC2D7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87FDD3AE196A589B003EC2D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87FDD3C0196A589B003EC2D7 /* KMobileTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87FDD3B8196A589B003EC2D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87FDD390196A589A003EC2D7 /* KMobile */;
+			targetProxy = 87FDD3B7196A589B003EC2D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		87FDD39D196A589A003EC2D7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87FDD39E196A589A003EC2D7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		87FDD3A6196A589A003EC2D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87FDD3A7196A589A003EC2D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87FDD3BC196A589B003EC2D7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87FDD3BD196A589B003EC2D7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87FDD3C1196A589B003EC2D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		87FDD3C2196A589B003EC2D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87FDD3C4196A589B003EC2D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KMobile/KMobile-Prefix.pch";
+				INFOPLIST_FILE = "KMobile/KMobile-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		87FDD3C5196A589B003EC2D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KMobile/KMobile-Prefix.pch";
+				INFOPLIST_FILE = "KMobile/KMobile-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		87FDD3C7196A589B003EC2D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KMobile.app/KMobile";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KMobile/KMobile-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KMobileTests/KMobileTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		87FDD3C8196A589B003EC2D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KMobile.app/KMobile";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KMobile/KMobile-Prefix.pch";
+				INFOPLIST_FILE = "KMobileTests/KMobileTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87FDD38C196A589A003EC2D7 /* Build configuration list for PBXProject "KMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87FDD3C1196A589B003EC2D7 /* Debug */,
+				87FDD3C2196A589B003EC2D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87FDD3C3196A589B003EC2D7 /* Build configuration list for PBXNativeTarget "KMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87FDD3C4196A589B003EC2D7 /* Debug */,
+				87FDD3C5196A589B003EC2D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		87FDD3C6196A589B003EC2D7 /* Build configuration list for PBXNativeTarget "KMobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87FDD3C7196A589B003EC2D7 /* Debug */,
+				87FDD3C8196A589B003EC2D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87FDD389196A589A003EC2D7 /* Project object */;
+}
