@@ -7,9 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "New.h"
 
 @interface ViewController ()
-
+@property (weak, nonatomic) IBOutlet UITextView *Text;
+@property (weak, nonatomic) IBOutlet UIButton *Button;
+- (IBAction)Button:(id)sender;
 @end
 
 @implementation ViewController
@@ -24,6 +27,9 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)Button:(id)sender {
+    //self.new.rating +=1;
 }
 
 @end

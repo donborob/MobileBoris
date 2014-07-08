@@ -131,9 +131,9 @@ didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 - (IBAction)done:(id)sender
 {
 	New *new = [[New alloc] init];
-	new.name = self.nameTextField.text;
-	new.text = @"Wow!";
-	new.rating = 5;
+	new.name = @"Аноним";
+	new.text = self.nameTextField.text;;
+	new.rating = 0;
     [self.delegate newDetailsViewController:self didAddNew:new];
 }
 

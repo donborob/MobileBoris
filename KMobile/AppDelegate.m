@@ -17,20 +17,10 @@
 {
     // Override point for customization after application launch.
     news = [NSMutableArray arrayWithCapacity:20];
-	New *new = [[New alloc] init];
-	new.name = @"Misha";
-	new.text = @"I am Misha";
-	new.rating = 4;
-	[news addObject:new];
-	new = [[New alloc] init];
-	new.name = @"Boris";
-	new.text = @"I am Boris";
-	new.rating = 3;
-	[news addObject:new];
-	new = [[New alloc] init];
-	new.name = @"Ruzal";
-	new.text = @"I am Ruzaldfsfsastrtretetrettretrtertertrterttrtr";
-	new.rating = 4;
+    New *new = [[New alloc] init];
+	new.name = @"Миша";
+    new.text = @"тратата-тратата!";
+	new.rating = 5;
 	[news addObject:new];
 	UITabBarController *tabBarController =
     (UITabBarController *)self.window.rootViewController;

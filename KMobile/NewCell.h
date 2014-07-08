@@ -11,6 +11,5 @@
 @interface NewCell : UITableViewCell
 @property (nonatomic, strong) IBOutlet UILabel *nameLabel;
 @property (nonatomic, strong) IBOutlet UILabel *textLabel;
-@property (nonatomic, strong) IBOutlet UIImageView
-*ratingImageView;
+@property (nonatomic, strong) IBOutlet UILabel *rating;
 @end

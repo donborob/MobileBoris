@@ -12,7 +12,7 @@
 
 @synthesize nameLabel;
 @synthesize textLabel;
-@synthesize ratingImageView;
+@synthesize rating;
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {

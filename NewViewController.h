@@ -10,5 +10,7 @@
 #import "NewDetailsViewController.h"
 
 @interface NewViewController : UITableViewController
+@property (weak, nonatomic) IBOutlet UILabel *Rating;
+- (IBAction)RatingButton:(id)sender;
 @property (nonatomic, strong) NSMutableArray *news;
 @end
