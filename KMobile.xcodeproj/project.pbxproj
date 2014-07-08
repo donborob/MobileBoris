@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23B95F79196BD4C200A282A2 /* Main in Resources */ = {isa = PBXBuildFile; fileRef = 23B95F78196BD4C200A282A2 /* Main */; };
+		23B95F7C196BD5CF00A282A2 /* Importance.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B95F7B196BD5CF00A282A2 /* Importance.m */; };
 		87375D05196AC7E30056C192 /* SortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87375D04196AC7E30056C192 /* SortViewController.m */; };
 		876555F2196AEC0D00B66A1B /* man.png in Resources */ = {isa = PBXBuildFile; fileRef = 876555F1196AEC0D00B66A1B /* man.png */; };
 		876555F4196AFAB600B66A1B /* gs.png in Resources */ = {isa = PBXBuildFile; fileRef = 876555F3196AFAB600B66A1B /* gs.png */; };
@@ -43,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23B95F78196BD4C200A282A2 /* Main */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Main; path = ../../../Desktop/Main; sourceTree = "<group>"; };
+		23B95F7A196BD5CF00A282A2 /* Importance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Importance.h; sourceTree = "<group>"; };
+		23B95F7B196BD5CF00A282A2 /* Importance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Importance.m; sourceTree = "<group>"; };
 		87375D03196AC7E30056C192 /* SortViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortViewController.h; sourceTree = "<group>"; };
 		87375D04196AC7E30056C192 /* SortViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortViewController.m; sourceTree = "<group>"; };
 		876555F1196AEC0D00B66A1B /* man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = man.png; sourceTree = "<group>"; };
@@ -142,6 +147,7 @@
 				87FDD3A3196A589A003EC2D7 /* AppDelegate.h */,
 				87FDD3A4196A589A003EC2D7 /* AppDelegate.m */,
 				87FDD3A6196A589A003EC2D7 /* Main.storyboard */,
+				23B95F78196BD4C200A282A2 /* Main */,
 				87375D03196AC7E30056C192 /* SortViewController.h */,
 				87375D04196AC7E30056C192 /* SortViewController.m */,
 				879342E3196A80E60007C72E /* NewCell.h */,
@@ -156,6 +162,8 @@
 				879342E7196A8C990007C72E /* NewDetailsViewController.m */,
 				87FDD3AC196A589A003EC2D7 /* Images.xcassets */,
 				87FDD39B196A589A003EC2D7 /* Supporting Files */,
+				23B95F7A196BD5CF00A282A2 /* Importance.h */,
+				23B95F7B196BD5CF00A282A2 /* Importance.m */,
 			);
 			path = KMobile;
 			sourceTree = "<group>";
@@ -266,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				87FDD3AD196A589A003EC2D7 /* Images.xcassets in Resources */,
+				23B95F79196BD4C200A282A2 /* Main in Resources */,
 				87FDD3CE196A5D93003EC2D7 /* logo2.jpg in Resources */,
 				876555F4196AFAB600B66A1B /* gs.png in Resources */,
 				87FDD39F196A589A003EC2D7 /* InfoPlist.strings in Resources */,
@@ -294,6 +303,7 @@
 				87FDD3A5196A589A003EC2D7 /* AppDelegate.m in Sources */,
 				87FDD3A1196A589A003EC2D7 /* main.m in Sources */,
 				879342D5196A71270007C72E /* NewViewController.m in Sources */,
+				23B95F7C196BD5CF00A282A2 /* Importance.m in Sources */,
 				879342E5196A80E60007C72E /* NewCell.m in Sources */,
 				879342E8196A8C990007C72E /* NewDetailsViewController.m in Sources */,
 				87375D05196AC7E30056C192 /* SortViewController.m in Sources */,
