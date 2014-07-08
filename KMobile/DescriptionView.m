@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Misha_Ruzal_Boris. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "DescriptionView.h"
 #import "New.h"
 
 @interface ViewController ()

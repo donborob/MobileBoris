@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Misha_Ruzal_Boris. All rights reserved.
 //
 
-#import "NewViewController.h"
+#import "NewsTableController.h"
 #import "New.h"
 #import "NewCell.h"
 
@@ -141,6 +141,7 @@
 }
 
 - (IBAction)RatingButton:(UIButton *)sender {
+    
     
 }
 @end

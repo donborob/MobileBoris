@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "NewDetailsViewController.h"
+#import "NewAddViewController.h"
 
 @interface NewViewController : UITableViewController
 @property (weak, nonatomic) IBOutlet UILabel *Rating;

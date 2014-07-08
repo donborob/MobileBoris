@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Misha_Ruzal_Boris. All rights reserved.
 //
 
-#import "NewDetailsViewController.h"
+#import "NewAddViewController.h"
 #import "New.h"
 
 @interface NewDetailsViewController ()

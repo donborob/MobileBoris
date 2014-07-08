@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "New.h"
-#import "NewViewController.h"
+#import "NewsTableController.h"
 @implementation AppDelegate{
     NSMutableArray *news;
 }
