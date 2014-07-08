@@ -14,3 +14,9 @@
 - (IBAction)RatingButton:(id)sender;
 @property (nonatomic, strong) NSMutableArray *news;
 @end
+
+@protocol NewDetailsViewControllerDelegate
+- (void)newDetailsViewControllerDidCancel: (NewDetailsViewController *)controller;
+- (void)newDetailsViewController:(NewDetailsViewController *)controller didAddNew:(New *)new;
+@end
+
